@@ -55,5 +55,3 @@ errorpesos1 = np.dot(deltas1,xT)
 
 wl1 = wl1 - alpha * errorpesos1
 print( f"Pesos 1 actualizado: {wl1}")
-
-
