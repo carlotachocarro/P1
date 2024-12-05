@@ -4,6 +4,8 @@ import numpy as np
 alpha = 0.25
 wl1 = np.ones ([3, 2])
 x = np.ones ([2,1])
+x[0, 0] = 0
+x[1, 0] = 1
 y = np.ones ([2,1])
 bl1 = np.ones ([3, 1])
 a1 = np.ones ([3,1])
